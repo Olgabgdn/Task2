@@ -1,4 +1,4 @@
-h2 {
+h1 {
     font-family: Georgia;
     font-size: 44px;
     font-weight: 400;
@@ -6,7 +6,7 @@ h2 {
     text-align: left;
     color:#FFFFFF;
 }
-.four h2 {
+ h2 {
     font-family: Georgia;
     font-size: 35px;
     font-weight: 400;
@@ -29,7 +29,7 @@ h2 {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
-    color: #CDCDCD;   
+    color: #CDCDCD;  
 }
 .paragraph_four {
     font-family: Arial;
@@ -38,6 +38,7 @@ h2 {
     line-height: 24px;
     text-align: left;
     color: #4C4C4C;
+
 
 }
 .bottonFriend {
@@ -48,13 +49,26 @@ h2 {
     letter-spacing: 0.06em;
     text-align: left;
 
+
 }
 .five h2 {
+    text-align: center;
+    }
+.card {
     font-family: Georgia;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 45.5px;
-    letter-spacing: 0.06em;
     text-align: center;
     color: #545454;
+    text-align: center;
 }
+.catalog_button {
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    color: #292929;
+}
+.six h2 {
+    text-align: center;
+    }

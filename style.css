@@ -1,113 +1,164 @@
 body {
-    width: 1280px;
-    gap: 0px;
-   }
-   h2 {
-    margin: 0px;
-   }
-  .start-screen-gradient-background {
-    background: linear-gradient(45deg, #5B483A, #262425, #211F20);
-    
-  } 
+  width: 1280px;
+  gap: 0px;
+ }
+ h2 {
+  margin: 0px;
+ }
+.start-screen-gradient-background {
+  background: linear-gradient(45deg, #5B483A, #262425, #211F20);
+ 
+}
 .navigation {
-    height: 60px;
-    padding: 30px 0 90px 0;
-    margin: 0px;
+  height: 60px;
+  padding: 30px 0 90px 0;
+  margin: 0px;
 }
 .navigation ul {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
 }
 .main_blok {
-    width: 100%;
-    height: 728px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 0px;
-  }
-  .one {
-    margin-top: 163px;
-  }
-  .two {
-    margin: 0px;
-    padding: 0px;
-  }
-  img {
-    width: 698px;
-    height: 728px;
-  }
-  .paragraph {
-    margin-bottom: 42px;
-    margin-top: 42px;
-  }
-  .bottonFriend {
-    width: 207pxpx;
-    height: 52px;
-    top: 270px;
-    padding: 15px 45px 15px 45px;
-    gap: 10px;
-    border-radius: 100px;
-    opacity: 0px;
-    background-color: #F1CDB3;
-    border: 0px;
-  }
-  .second-screen {
-    display: flex;
-    justify-content: space-around;
-    gap: 120px;
-    padding: 80px 40px 100px;
-  }
-  .three{
-    height: 408px;
-  }
-  .three img{
-    width: 300px;
-    height: 408px;
-    padding-left: 175px;
-    margin-top: 0px;
-  }
-  .four {
-    height: 408px;
-    margin-right: 175px;
-  }
-  .third-screen {
-    width: 1280px;
-    height: 877px;
-    gap: 0px;
-    background-color: #F6F6F6;
-  }
-  .five {
-    padding-top: 80px;
-  }
-  .catalog {
-    display: flex;
-    justify-content: space-between;
-  }
-  .image_one img {
-    width: 270px;
-    height: 270px;
-    gap: 0px;
-    border-radius: 9px 9px 0px 0px;
-  }
-  .image_two img {
-    width: 270px;
-    height: 270px;
-    gap: 0px;
-    border-radius: 9px 9px 0px 0px;
-  }
-  .image_three img {
-    width: 270px;
-    height: 270px;
-    gap: 0px;
-    border-radius: 9px 9px 0px 0px;
-  }
-  .catalog_button {
-    width: 187px;
-    height: 52px;
-    padding: 15px 45px 15px 45px;
-    border-radius: 100px;
-    border: 2px 0px 0px 0px;
-    border-color: #F1CDB3;
-    
-  }
+  width: 100%;
+  height: 728px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0px;
+}
+.one {
+  margin-top: 163px;
+}
+.two {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 698px;
+  height: 728px;
+}
+.paragraph {
+  margin-bottom: 42px;
+  margin-top: 42px;
+}
+.bottonFriend {
+  width: 207pxpx;
+  height: 52px;
+  top: 270px;
+  padding: 15px 45px 15px 45px;
+  gap: 10px;
+  border-radius: 100px;
+  opacity: 0px;
+  background-color: #F1CDB3;
+  border: 0px;
+  display: block;
+  margin: 0 auto;
+}
+.second-screen {
+  display: flex;
+  justify-content: space-around;
+  gap: 120px;
+  padding: 80px 40px 100px;
+}
+.three{
+  height: 408px;
+}
+.three img{
+  width: 300px;
+  height: 408px;
+  padding-left: 175px;
+  margin-top: 0px;
+}
+.four {
+  height: 408px;
+  margin-right: 175px;
+}
+.third-screen {
+  width: 1280px;
+  height: 877px;
+  gap: 0px;
+  background-color: #F6F6F6;
+}
+.five {
+  padding-top: 80px;
+}
+.catalog {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px;
+ 
+}
+.image_one {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  margin: 0px;
+  border-radius: 9px;
+}
+.image_two {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  margin: 0px;
+  border-radius: 9px;
+}
+.image_three {
+  width: 270px;
+  height: 435px;
+  background-color: #FAFAFA;
+  margin: 0px;
+  border-radius: 9px;
+ 
+}
+.image_one img {
+  width: 270px;
+  height: 270px;
+  gap: 0px;
+  border-radius: 9px 9px 0px 0px;
+}
+.image_two img {
+  width: 270px;
+  height: 270px;
+  gap: 0px;
+  border-radius: 9px 9px 0px 0px;
+}
+.image_three img {
+  width: 270px;
+  height: 270px;
+  gap: 0px;
+  border-radius: 9px 9px 0px 0px;
+}
+.catalog_button {
+  width: 187px;
+  height: 52px;
+  padding: 15px 45px 15px 45px;
+  border-radius: 100px;
+  border: 2px solid #F1CDB3;
+  text-align: center;
+  display: block;
+  margin-left: 41.5px;
+
+
+ 
+}
+.fourth-screen {
+  width: 1280px;
+  height: 611px;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 127px;
+  margin-right: 127px;
+ 
+ 
+}
+.help img {
+  width: 60px;
+  height: 60px;
+
+
+
+
+}
