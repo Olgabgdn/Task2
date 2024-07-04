@@ -6,7 +6,7 @@ body {
   margin: 0px;
  }
 .start-screen-gradient-background {
-  background: linear-gradient(45deg, #5B483A, #262425, #211F20);
+  background: url(Image/start-screen-gradient-background.jpg)
  
 }
 .navigation {
@@ -200,7 +200,7 @@ img {
   top: 3446px;
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(45deg, #5B483A, #262425, #211F20);
+  background: url(Image/start-screen-gradient-background.jpg)
 }
 .For_questions {
   margin-left: 40px;
