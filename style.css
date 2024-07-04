@@ -137,9 +137,6 @@ img {
   text-align: center;
   display: block;
   margin-left: 41.5px;
-
-
- 
 }
 .fourth-screen {
   width: 1280px;
@@ -157,8 +154,65 @@ img {
 .help img {
   width: 60px;
   height: 60px;
-
-
-
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.six{
+  padding-top: 80px;
+}
+.fifth-scteen{
+  width: 1280px;
+  height: 462px;
+  background-color: #F6F6F6;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.seven {
+  padding: 80px 0px 100px 183px;
+}
+.seven img {
+  width: 505px;
+  height: 261px;
+  top: 11px;
+}
+.eight {
+  padding: 80px 182px 100px 0px;
+}
+.Credit-card{
+  width: 349px;
+  height: 43px;
+  margin: 10px 15px 10px 15px;
+  margin: 0px;
+  border-radius: 9px;
+  background-color: #F1CDB3;
+  vertical-align: middle;
+}
+.Credit-card img{
+  width: 30px;
+  height: 23px;
+  padding: 10px 15px 10px 15px;
+}
+.footer {
+  width: 1280px;
+  height: 350px;
+  top: 3446px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(45deg, #5B483A, #262425, #211F20);
+}
+.For_questions {
+  margin-left: 40px;
+  margin-top: 56px;
+}
+.We_are_waiting {
+  margin-top: 56px;
+}
+.happy img{
+  width: 300px;
+  height: 310px;
+  left: 900px;
+  margin-right: 40px;
+  margin-top: 40px;
 }
