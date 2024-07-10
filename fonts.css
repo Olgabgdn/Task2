@@ -1,12 +1,40 @@
 h1 {
     font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 35.2px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #F1CDB3;
+    margin: 0px;
+}
+.logo {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.95px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.logo1 {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.95px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
+}
+h2 {
+    font-family: Georgia;
     font-size: 44px;
     font-weight: 400;
     line-height: 57.2px;
     text-align: left;
     color:#FFFFFF;
 }
- h2 {
+ h3 {
     font-family: Georgia;
     font-size: 35px;
     font-weight: 400;
@@ -15,7 +43,7 @@ h1 {
     text-align: left;
     color: #545454;
 }
-h3 {
+h4 {
     font-family: Georgia;
     font-size: 35px;
     font-weight: 400;
@@ -23,8 +51,22 @@ h3 {
     letter-spacing: 0.06em;
     text-align: left;
     margin: 0px;
-
     color:#FFFFFF; 
+}
+h5 {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #F1CDB3;
+    margin: 0px;
+    text-align: justify;
+}
+.styleh3 {
+    text-align: center;
+    margin: 0px;
 }
 .paragraph_nav{
     font-family: Arial;
@@ -33,7 +75,24 @@ h3 {
     line-height: 24px;
     text-align: left;
     color: #CDCDCD;  
+    cursor: default;
 }
+.navigation ul a {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #CDCDCD;
+  }
+  .navigation ul a:hover {
+    color: #FAFAFA;
+    border-bottom: 3px solid #F1CDB3;
+  }
+  .navigation ul a:active {
+    color: #292929;
+    border-bottom: none;
+  }
 .paragraph{
     font-family: Arial;
     font-size: 15px;
@@ -49,19 +108,22 @@ h3 {
     line-height: 24px;
     text-align: left;
     color: #4C4C4C;
-
-
 }
-.bottonFriend {
+.bottonFriend a{
     font-family: Georgia;
     font-size: 17px;
     font-weight: 400;
-    line-height: 22.1px;
-    letter-spacing: 0.06em;
-    text-align: left;
-
-
+    text-decoration: none;
+    color: rgba(41, 41, 41, 1);
 }
+.bottonFriend2 a{
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(41, 41, 41, 1);
+}
+
 .five h2 {
     text-align: center;
     }
@@ -92,6 +154,16 @@ h3 {
     text-align: left;
     color: #545454;
 }
+.blok-credit-card{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #545454;
+}
+
 .italica {
     font-family: Arial;
     font-size: 12px;
@@ -109,4 +181,31 @@ h3 {
     letter-spacing: 0.06em;
     text-align: left;
     color: #545454;
+}
+.icon-text{
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.pagination button {
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+
+
+.paragraph_nav1 li a{
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(84, 84, 84, 1);
 }
